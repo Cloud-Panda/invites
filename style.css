@@ -1,0 +1,147 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background:url("images/1 (6).jpg");
+  background-size: cover;
+ /* font-family: 'Playfair Display', serif;*/
+  font-family: 'Mulish', sans-serif;
+}
+
+.card{
+  background:black;
+  width:20%;
+  height:55vh;
+  left:30%;
+  margin-top:5%;
+  border-radius: 0;
+  float:left;
+  position:relative;
+  -webkit-box-shadow: -2px 12px 62px -3px rgba(0,0,0,0.54);
+  font-family: 'Mulish', sans-serif;
+}
+
+#name-title{
+  transform: rotate(-90deg);
+  color:white;
+  margin-left:-70%;
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin-top:-20%;
+}
+
+.rsvp{
+  float:right;
+  height:55vh;
+  width:20%;
+  right:25%;
+  position:relative;
+  background:rgb(245, 242, 242);
+  margin-top:20px;
+  -webkit-box-shadow: -2px 12px 62px -3px rgba(0,0,0,0.54);
+  font-family: 'Mulish', sans-serif;
+}
+
+#rsvp{
+  transform: rotate(-90deg);
+  color:rgb(0, 0, 0);
+  margin-left:-70%;
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin-top:-5%;
+}
+
+.party{
+  float:right;
+  height:30vh;
+  width:30%;
+  position:relative;
+  background:black;
+  right:10%;
+  margin-top:32%;
+  -webkit-box-shadow: -2px 12px 62px -3px rgba(0,0,0,0.54);
+  font-family: 'Mulish', sans-serif;
+}
+
+#party{
+  font-size: 60px;
+  color:white;
+  letter-spacing: 15px;
+  text-align: left;
+  -webkit-box-shadow: -2px 12px 62px -3px rgba(0,0,0,0.54);
+
+}
+
+p{
+  color:white;
+  text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
+  margin-left:40%;
+  font-size: 15px;
+  margin-top:1.5%;
+  margin-right:20px;
+}
+
+#party-p{
+  color:black;
+  margin-top:41%;
+}
+
+ul li{
+  color:white;
+}
+
+ul{
+  text-align: left;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+li{
+  list-style:none;
+  list-style-position: inside;
+}
+
+h5{
+  text-align: right;
+  color:white;
+  margin-right:15px;
+  margin-top:45%;
+}
+
+@media screen and (max-width:500px){
+  .card{
+    width:auto;
+    height:auto;
+    left:0;
+    margin:20px;
+  }
+  .rsvp{
+    width:auto;
+    height:auto;
+    right:0;
+    margin:20px;
+  }
+  .party{
+    width:87%;
+    height:auto;
+    float:left;
+    right:0;
+    margin:20px
+  }
+  #name-title{
+    margin-top:-10%;
+  }
+  p{
+    text-align:left;
+  }
+  h5{
+    margin-right:15px;
+  }
+  #party{
+    padding-left:20px;
+  }
+}
