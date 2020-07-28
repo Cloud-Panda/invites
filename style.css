@@ -112,6 +112,10 @@ h5{
   margin-top:45%;
 }
 
+span{
+  margin-left:25.5%;
+}
+
 @media screen and (max-width:500px){
   .card{
     width:auto;
@@ -139,9 +143,10 @@ h5{
     text-align:left;
   }
   h5{
-    margin-right:15px;
+    margin-right:11px;
   }
   #party{
     padding-left:20px;
   }
+  
 }
